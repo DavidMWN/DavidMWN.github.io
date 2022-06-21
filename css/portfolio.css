@@ -78,7 +78,7 @@ footer {
     padding: .75vw 1vw;
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.5vw;
+    font-size: min(1.5vw, 20px);
     letter-spacing: 1px;
     text-align: center;
     position: relative;
@@ -114,7 +114,7 @@ footer {
 .heading-banner {
     background: rgba(0,0,0,.3); /*semi-transparent background*/
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     padding-top: 2vh;
     position: relative;
     -webkit-animation: moveHeadingBanner 1.75s;
