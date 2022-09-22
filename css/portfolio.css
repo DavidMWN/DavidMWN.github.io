@@ -172,6 +172,15 @@ footer {
     border-bottom: 2px solid black;
 }
 
+.col_github {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    height: 750px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
 @media screen and (max-width: 576px) {
     .col_w {
         overflow: auto;
@@ -296,10 +305,18 @@ footer {
 
 /* =========== GITHUB STYLES =========== */
 
+.github_desc {
+    text-decoration: underline;
+}
+
+.github_img {
+    padding-top: 200px;
+}
+
 .github_link {
     
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 21px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: blue;
     text-decoration: none;
